@@ -1,3 +1,13 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: "Avenir Next", Helvetica, Arial, Sans-Serif;
+  color: #2E2F30;
+}
+
+a {
+  text-decoration: none;
+  color: #2E2F30;
+  padding: 2px 16px 10px 0px;
+}

@@ -1,0 +1,17 @@
+<h1>Listing Cards</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+  </tr>
+
+  <% @card.each do |card| %>
+    <tr>
+      <td><%= card.title %></td>
+      <td><%= card.text %></td>
+      <td><%= link_to 'Show', card_path(card) %></td>
+    </tr>
+  <% end %>
+</table>
